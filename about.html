@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABOUT ME</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">SOCIAL</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Me</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>ABOUT ME</h1>     
+            <p>My Name Is Jay Mehta. I am a freelancer Youtuber And I develop Apps And Website By Using C++,python,html,css etx.<br>I Make Youtube videos and i do simple graphic and video design you can check out my page in fiverr in the box below </p>
+            <a href="https://www.fiverr.com/share/zy0yvb" class="hero-btn red-btn">Fiverr Page</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about me.jpg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Hope You Guys Like This Website <br>Social Link Is Given Below</p>
+        <div class="icons">
+            <a href="https://www.youtube.com/channel/UCJ4KUT3vIpa44StzSDBLxFw"><i class="fa fa-youtube"></i></a>
+            <a href="https://twitter.com/YT_Xtream07"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yt.xtream/"><i class="fa fa-instagram"></i></a>
+            
+        </div>
+        <a href="https://www.youtube.com/channel/UCFbPm8OTO5CGZb3VHIOasJg" class="footer-link"><p>made by <i class="fa fa-heart-o"></i> Jay Mehta</p></a>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
